@@ -1,0 +1,15 @@
+{
+ "manifest_version": 2,
+ "name": "HereMusic",
+ "description": "Find when your favorite artists have local shows!",
+ "version": "11.21.18.00",
+ "author": "David Feinzimer",
+"browser_action": {
+   "default_icon": "favicon.ico",
+   "default_title": "HereMusic Applet"
+ },
+"chrome_url_overrides" : {
+  "newtab": "newtab.html"
+},
+ "permissions": ["activeTab"]
+}
